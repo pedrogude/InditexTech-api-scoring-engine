@@ -80,7 +80,6 @@ cerws:
       number-of-base-rules: 30
       configuration-directory: "/src/rules/proto/"
       severities-file: /src/rules/proto/severities.yaml
-      protolint-bin-path: /src/bin/protolint
       protolint-custom-rules-bin-path: /src/bin/protolint_custom_rules
   markdown:
     number-of-base-rules: 47

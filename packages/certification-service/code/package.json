@@ -35,11 +35,6 @@
     "version:release": "npm version $RELEASE_VERSION -m \"[npm-scripts] prepare release $RELEASE_VERSION\" --tag-version-prefix \"\""
   },
   "protolint": {
-    "protolint-linux-x64": "https://github.com/yoheimuta/protolint/releases/download/v0.38.1/protolint_0.38.1_Linux_x86_64.tar.gz",
-    "protolint-darwin-x64": "https://github.com/yoheimuta/protolint/releases/download/v0.38.1/protolint_0.38.1_Darwin_x86_64.tar.gz",
-    "protolint-darwin-arm64": "https://github.com/yoheimuta/protolint/releases/download/v0.38.1/protolint_0.38.1_Darwin_arm64.tar.gz",
-    "protolint-win32-x64": "https://github.com/yoheimuta/protolint/releases/download/v0.38.1/protolint_0.38.1_Windows_x86_64.tar.gz",
-    "protolint-win32-ia32": "https://github.com/yoheimuta/protolint/releases/download/v0.38.1/protolint_0.38.1_Windows_i386.tar.gz",
     "protolint-custom-rules-linux-x64": "protolint_custom_rules/v0.1.7/protolint_custom_rules_linux_64.tar.gz",
     "protolint-custom-rules-darwin-x64": "protolint_custom_rules/v0.1.7/protolint_custom_rules_darwin_64.tar.gz",
     "protolint-custom-rules-darwin-arm64": "protolint_custom_rules/v0.1.7/protolint_custom_rules_darwin_arm_64.tar.gz",
@@ -65,6 +60,7 @@
     "koa-compose": "4.1.0",
     "koa2-swagger-ui": "5.10.0",
     "markdownlint": "^0.34.0",
+    "protolint": "0.50.5",
     "tar": "^7.1.0",
     "uuid": "9.0.1",
     "winston": "3.13.0"

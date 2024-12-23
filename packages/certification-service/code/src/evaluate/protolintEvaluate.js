@@ -11,7 +11,7 @@ const logger = getAppLogger();
 
 const evaluateProtoLint = async (files, customFlags) => {
   const configDirectory = path.join(process.cwd(), configValue("cerws.lint.grpc.configuration-directory"));
-  const protolintBin = path.join(process.cwd(), configValue("cerws.lint.grpc.protolint-bin-path"));
+  const protolintBin = require.resolve(".bin/protolint");
   const protolintPluginBin = path.join(process.cwd(), configValue("cerws.lint.grpc.protolint-custom-rules-bin-path"));
 
   const customFlagsFormatted = formatFlags(customFlags);
